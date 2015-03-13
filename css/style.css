@@ -41,10 +41,11 @@ body{
     //border:1px solid #232323;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
+    font-size: 13px;
 
 }
 #inp-search:focus{
-    outline: 1px solid #0088ff;
+    outline:none;
 }
 
 .user-box{
@@ -319,3 +320,28 @@ margin-top:-1px;
     color:#222;
 }
 
+.user-control-menu{
+    list-style: none;
+    color:#333;
+    background: #fff;
+    text-align: left;
+    width:200px;
+    margin-top:5px;
+    padding: 10px;
+    box-shadow: 0 4px 4px -4px #333;
+    border:1px solid #333;
+    border-top: none;
+    display: none;
+}
+.user-control-menu li{
+    margin-bottom: 10px;
+    padding: 2px;
+    padding-left: 6px;
+    font-size: 12px;
+}
+.user-control-menu li:hover{
+    cursor: pointer;
+    background: #333;
+    color:#fff;
+
+}
